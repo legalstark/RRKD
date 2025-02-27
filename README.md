@@ -9,7 +9,7 @@ This Python script (`train solo.py`) is designed for training and evaluating dee
 ## Features
 
 - **Dataset Support**: Supports multiple HAR datasets including UCI, UniMiB, WISDM, OPPO, and PAMAP.(Except for UCI, you need to download the dataset yourself)
-- **Model Architectures**: Supports CNN, CNN8_S, ResNet models.
+- **Model Architectures**: Supports CNN8_S, ResNet models.
 - **Knowledge Distillation**: Implements both RRKD (Relational Ranking Knowledge Distillation) and Vanilla Knowledge Distillation methods.
 - **Mixed Precision Training**: Utilizes PyTorch's automatic mixed precision training to speed up the training process.
 
