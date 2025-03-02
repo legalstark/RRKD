@@ -288,9 +288,7 @@ def task(model_s,dataset_name):
     accuracy, best_val_acc = train_and_evaluate_model(model_s,dataset_name)
     print_evaluation_results(dataset_name,model_s,test_loader)
 
-#训练dist
 epoch = 300
-
 dataset_name = 'uci'
 net_sota = cnn.CNN8_S(X_train.shape, category).to(device)
 train_and_evaluate_model_student(net_sota,dataset_name)
